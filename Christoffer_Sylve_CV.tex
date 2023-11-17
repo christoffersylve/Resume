@@ -1,0 +1,135 @@
+% Document class and font size
+\documentclass[a4paper,9pt]{extarticle}
+
+% Packages
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage{geometry} % For page margins
+\geometry{a4paper, margin=0.75in} % Set paper size and margins
+\usepackage{titlesec} % For section title formatting
+\usepackage{enumitem} % For itemized list formatting
+\usepackage{hyperref} % For hyperlinks
+
+% Formatting
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+
+% Begin document
+\begin{document}
+
+% Disable page numbers
+\pagestyle{empty}
+
+% Header
+\begin{center}
+{\textbf{\fontsize{22}{20}\selectfont Christoffer Sylve}}\\[5pt] % Name
+%Dag Hammarskjölds väg 1E $\vert$ 224 64, Lund $\vert$ 
++46 (0) 70 781 05 67 $\vert$ 
+\href{mailto:christoffer.sylve@outlook.com}{christoffer.sylve@outlook.com} $\vert$
+\href{https://www.linkedin.com/in/christoffer-sylve/}{linkedin.com/christoffersylve} $\vert$
+\href{https://github.com/christoffersylve}{github.com/christoffersylve} 
+\end{center}
+
+
+
+% Education Section
+
+\section*{EDUCATION}
+\noindent
+\textbf{Lunds Tekniska Högskola}, Lund, Sweden \hfill Enrolled: Aug 2021 | Expected: Jun 2026\\ % University name and location
+Master of Science in Engineering, Computer Science and Engineering
+
+\vspace{5pt}
+\noindent
+\textbf{Blackebergs Gymnasium}, Bromma, Sweden  \hfill Enrolled: Aug 2017 | Graduated: Jun 2020\\ % University name and location
+High School, Natural Science 
+
+\vspace{5pt}
+\noindent
+\textbf{Internationella Engelska Skolan Bromma}, Bromma, Sweden  \hfill Enrolled: Aug 2013 | Graduated: Jun 2017\\ % University name and location
+Middle School 
+
+% Experience Section
+% Radbryte genom dom!
+
+% Bryt ut som egen punkt!! -- På fullstack
+
+% Samma på
+
+
+\section*{EXPERIENCE}
+\noindent
+\textbf{Pickit} \hfill Visby, Gotland\\ % Company name and location
+\textit{Software Engineer - Consultant} \hfill Jun 2023 - Aug 2023  % Position and duration
+\begin{itemize}
+    \item Developed custom plugin for Wordpress, which is to be published on official plugin-store
+    \item Plugin allowed Pickit application to be accessed within Wordpress
+    \item Implemented image import from Pickit, into native Wordpress media library 
+\end{itemize}
+\noindent
+\textit{Fullstack Developer - Student Worker} \hfill Jun 2022 - Aug 2022  % Position and duration
+\begin{itemize}
+    \item Built a tool in React.js to retrieve, visualize and track product usage by company and period 
+    \item Developed an API for retrieving data from Microsoft Azure and send it to frontend
+    \item Used extensively by the Pickits sales force  
+\end{itemize}
+
+\noindent
+\textbf{Filt} \hfill Kungsholmen, Stockholm\\ % Company name and location
+\textit{Email And Data Migraiton - Consultant} \hfill Mar 2023 - Maj 2023  % Position and duration
+\begin{itemize}
+    \item Migrated company email accounts from Simply to Google Workspace
+    \item Transfered all digital assets to new their Google drive
+    \item Successfully migrated over 50 accounts and 500 000 emails 
+\end{itemize}
+
+
+\noindent
+\textbf{Äppelviksskolan, Stockholms Stad} \hfill Bromma, Stockholm\\ % Company name and location
+\textit{Substitute Teacher} \hfill Sep 2020 - Jun 2021  % Position and duration
+\begin{itemize}
+    \item Taught students in year 6-9 in all subjects, including math, science and programming
+    \item Served as a long-term substitute teacher for 7\textsuperscript{th}-graders over period of two months in natural science 
+    \item While long-term subbing i planned lessons, wrote test and graded tests
+\end{itemize}
+
+\noindent
+\textbf{Marieberg SK} \hfill Bromma, Stockholm\\ % Company name and location
+\textit{Floorball Coach} \hfill Sep 2016 - Jun 2020  % Position and duration
+\begin{itemize}
+    \item Planned and held practices 2-4 times a week 
+    \item Volunteered coaching games every weekend, all over Stockholm 
+\end{itemize}
+
+% Projects Section
+\section*{PROJECTS}
+\noindent
+\textbf{Suzuki k50 - 1983} \hfill\\
+\textit{Renovated a classic moped from the ground up} 
+\begin{itemize}
+    \item Disassembled all components and rebuilt it from the ground up
+    \item Compeleted the project, having never done something similar before
+    \item Result: Having the coolest moped in town
+\end{itemize}
+
+% Additional Project
+\noindent
+\textbf{Designer Clock} \hfill\\ % Project name and location
+\textit{Currently recreating a designer wall clock from scratch} 
+\begin{itemize}
+    \item Building the underlaying system for displaying time using LEDs % Project description and contributions
+\end{itemize}
+
+% Skills Section
+\section*{SKILLS AND PERSONAL INTERESTS}
+\begin{itemize} 
+    \item \textbf{Progrmming languages: } Java, Scala, Javascript, HTML, CSS, Python, R, php, Haskell, Clojure, VHDL
+    \item \textbf{Frameworks: } React, Node.js, Wordpress, JUnit, Meterial-UI, Recharts, Optimizely CMS12
+    \item \textbf{Developer tools: } Git, Matlab, R-studio, Google Workspace, Microsoft 365, Docker, VS code, Wordpress, Jenkins
+    \item \textbf{Languages:} Swedish, English
+    \item \textbf{Personal interests:} Golf, Floorball, Fotboll, Carpentry, Programming
+\end{itemize}
+
+% End document
+
+\end{document}
